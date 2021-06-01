@@ -36,11 +36,11 @@
     animation: 20s slides-set-1 -0.1s infinite;
   }
   .slideshow--hero .slide2 {
-    background-image: url(img/lan6.jpg);
+    background-image: url(img/lan5.jpg);
     animation: 20s slides-set-2 -0.1s infinite;
   }
   .slideshow--hero .slide3 {
-    background-image: url(img/lan3.jpg);
+    background-image: url(img/lan5.jpg);
     animation: 20s slides-set-3 -0.1s infinite;
   }
   .slideshow--hero .slide4 {
@@ -107,6 +107,7 @@
     background-image: linear-gradient(to bottom, rgba(200, 200, 75, 0.25) 0, rgba(200, 75, 75, 0.5) 100%), url(https://source.unsplash.com/1002x752);
     animation: 20s slides-set-3 -0.2s infinite;
   }
+
   .slideshow--contrast--after {
     top: auto;
     bottom: 0;
@@ -126,6 +127,7 @@
   .slideshow--contrast--after .slide3 {
     animation: 20s slides-set-3 infinite;
   }
+
   @media (min-width: 600px) {
     .slideshow--contrast {
       width: 50%;
@@ -149,7 +151,7 @@
     height: 100%;
     background-position: center;
     background-size: contain;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     
   }
   
