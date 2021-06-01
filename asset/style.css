@@ -141,7 +141,11 @@
       width: 50vw;
     }
   }
-  
+  h2{
+    position: absolute;
+   top: 0;
+   left: 0;
+  }
   .slides,
   .slide {
     position: absolute;
